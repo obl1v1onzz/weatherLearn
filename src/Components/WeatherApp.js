@@ -33,7 +33,7 @@ export function WeatherApp() {
   };
 
   return (
-    <div className="WeatherApp">
+    <div className={WeatherAppStyle.WeatherApp}>
       <div className="city">
         <input
           className={WeatherAppStyle.input}
