@@ -24,6 +24,7 @@
 }
 .temp {
   font-size: 100px;
+  color: #1570cd;
 }
 .input {
   padding: 10px;
@@ -33,21 +34,4 @@
   .myButton {
     margin: 0;
   }
-}
-.WeatherApp {
-  height: 700px;
-  display: block;
-  position: relative;
-}
-.WeatherApp::after {
-  content: '';
-  background: url('https://i.ytimg.com/vi/69YGNtHz8Xc/maxresdefault.jpg');
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
